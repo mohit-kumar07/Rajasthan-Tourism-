@@ -1,0 +1,1126 @@
+body{
+    background:linear-gradient(to bottom, rgb(73, 210, 251) ,rgba(198, 200, 201, 0.871));
+    overflow-y: visible;
+    overflow-x: hidden;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+    background: url("logo1.png") no-repeat center center/cover;
+    float:left;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.footer a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.footer a i{
+    color: rgb(0, 0, 0);
+    opacity: 0.9;
+    font-size: 2em;
+}
+
+.heading{
+   padding-left: 32%;
+    align-items: start;
+    font-size: 60px;
+    font-weight: bold;
+    background: url("jaipur2.jpg"); 
+    background-size: 20%;   
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cards1{
+    display: flex;
+    justify-content: center;
+}
+
+.card1{
+    height: 330px;
+    width: 330px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    background: url("jaipur.jpg") no-repeat center center/cover;
+    float: left;
+    margin-left: 12px;
+    margin-top: 20px;
+    transition-duration: 0.5s
+}
+
+.card2{
+    height: 330px;
+    width: 330px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    background: url("jodhpur.jpg") no-repeat center center/cover;
+    float: left;
+    margin-left: 12px;
+    margin-top: 20px;
+    transition-duration: 0.5s
+
+}
+.card3{
+    height: 330px;
+    width: 330px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    background: url("udiapur.jpg") no-repeat center center/cover;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition-duration: 0.5s
+    
+}
+.card4{
+    height: 330px;
+    width: 330px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    background: url("ajmer.jpg") no-repeat center center/cover;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition-duration: 0.5s
+    
+}
+.card5{
+    height: 330px;
+    width: 330px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    background: url("jaisalmer.jpg") no-repeat center center/cover;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition-duration: 0.5s
+
+    
+}
+.card6{
+    height: 330px;
+    width: 330px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    background: url("bikaner.webp") no-repeat center center/cover;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition-duration: 0.5s
+    
+}
+.card7{
+    height: 330px;
+    width: 330px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    background: url("Alwar.jpg") no-repeat center center/cover;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition-duration: 0.5s
+
+    
+}
+.card8{
+    height: 330px;
+    width: 330px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    background: url("mountabu.jpg") no-repeat center center/cover;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition-duration: 0.5s
+
+    
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover,.card8:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.9);
+    transform: scale(1.05);
+
+}
+
+.text{
+    height: 60px;
+    width: 330px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.907);
+}
+
+.para{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button1{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    margin-bottom: 40px;
+}
+
+.button{
+    height: 70px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: rgb(61, 227, 61);
+    font-size: 25px;
+    
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:rgb(20, 161, 5);
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.albert{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    background: url("albert-hall-museum-jaipur-city-16527959824x3.avif") no-repeat center center/cover;
+    float: left;
+}
+h1{
+    padding-left: 50%;
+    padding-top: 30px;
+    font-weight: bold;
+
+}
+.albertdisp{
+    font-size: 28px;
+    margin-left:650px ;
+    margin-right: 50px;
+}
+
+.amer{
+    margin-right: 30px;
+    margin-top: 380px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    background: url("amer palace.jpg") no-repeat center center/cover;
+    float: right;
+    border-radius: 10px;
+
+}
+
+.amertext{
+    margin-top: 25%;
+    
+}
+.amberheading{
+    margin-left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.amerdisp{
+    font-size: 28px;
+    margin-right:650px ;
+    margin-left: 50px;
+}
+
+.hawa{
+    margin-left: 10px;
+    margin-top: 340px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    background: url("hawa.jpg") no-repeat center center/cover;
+    float: left;
+    border-radius: 10px;
+
+}
+.hawaheading{
+    margin-top: 370px;
+    margin-left: 58%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hawadisp{
+    font-size: 28px;
+    margin-left:650px ;
+    margin-right: 50px;
+}
+.jal{
+    margin-right: 30px;
+    margin-top: 330px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    background: url("jal.jpg") no-repeat center center/cover;
+    float: right;
+    border-radius: 10px;
+
+}
+
+.jaltext{
+    margin-top: 22%;
+    
+}
+.jalheading{
+    margin-left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.jaldisp{
+    font-size: 28px;
+    margin-right:650px ;
+    margin-left: 50px;
+}
+
+.galta{
+    margin-left: 10px;
+    margin-top: 440px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    background: url("galta.webp") no-repeat center center/cover;
+    float: left;
+    border-radius: 10px;
+
+}
+.galtaheading{
+    margin-top: 440px;
+    margin-left: 58%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.galtadisp{
+    font-size: 28px;
+    margin-left:650px ;
+    margin-right: 50px;
+}
+
+
+.patrika{
+    margin-right: 30px;
+    margin-top: 330px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    background: url("patrika.webp") no-repeat center center/cover;
+    float: right;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.patrikatext{
+    margin-top: 22%;
+    
+}
+.patrikaheading{
+    margin-left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.patrikadisp{
+    font-size: 28px;
+    margin-right:650px ;
+    margin-left: 50px;
+}
+
+
+.container1{
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+}
+.umaidbhawan{
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("umaidbhawan.jpg") no-repeat center center/cover;
+    float: left;
+}
+.umaidheading{
+    margin-top: 15px;
+    margin-left: 58%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textumaid{
+    font-size: 28px;
+    margin-left: 700px;
+    margin-right: 50px;
+}
+.container2{
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+}
+.motimahal{
+    margin-right: 30px;
+    padding-top: 10px;
+    height: 500px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("motimahal.jpg") no-repeat center center/cover;
+    float: right;
+}
+.motiheading{
+    margin-left: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 700px;
+
+}
+
+.textmoti{
+    margin-top: 0%;
+    font-size: 28px;
+    margin-right: 700px;
+    margin-left: 15px;
+}
+
+.container3{
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+}
+.chamunda{
+    margin-top: 400px;
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("chamundatempel.jpg") no-repeat center center/cover;
+    float: left;
+}
+.chamundaheading{
+    padding-top: 400px;
+    margin-left: 50%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textchamunda{
+    font-size: 28px;
+    margin-left: 700px;
+    margin-right: 50px;
+}
+.container4{
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+}
+.museum{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("sardarmusium.jpg") no-repeat center center/cover;
+    float: right;
+}
+.museumheading{
+    padding-top: 400px;
+    margin-left:15px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 700px;
+
+}
+
+.textmuseum{
+    margin-top: 0%;
+    font-size: 28px;
+    margin-right: 700px;
+    margin-left: 15px;
+}
+
+
+.container5{
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+.raniser{
+    margin-top: 400px;
+    margin-left: 25px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("ranisarpdmasar.jpg") no-repeat center center/cover;
+    float: left;
+}
+.raniserheading{
+    padding-top: 400px;
+    margin-left: 50%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textraniser{
+    font-size: 28px;
+    margin-left: 700px;
+    margin-right: 50px;
+}
+
+
+.container6{
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+.gantaghar{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("ganataghar.jpg") no-repeat center center/cover;
+    float: right;
+}
+.gantagharheading{
+    padding-top: 400px;
+    margin-left:20%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 700px;
+
+}
+
+.textgantaghar{
+    margin-top: 0%;
+    font-size: 28px;
+    margin-right: 700px;
+    margin-left: 15px;
+}
+
+
+
+.container7{
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+.mahamandir{
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("mandirtemple.jpg") no-repeat center center/cover;
+    float: left;
+}
+.mahamandirheading{
+    padding-top: 400px;
+    margin-left: 50%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textmahamandir{
+    font-size: 28px;
+    margin-left: 700px;
+    margin-right: 50px;
+}
+
+a{
+    color: rgb(130, 12, 143);
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(185, 37, 37);
+}
+
+.pratap{
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("pratap.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.cityplace{
+    margin-right: 30px;
+    padding-top: 10px;
+    height: 500px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("cityplace.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+
+.lakeplace{
+    margin-top: 400px;
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("lakeplace.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.jagmandir{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("jagmandir.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+.jagmandirheading{
+    padding-top: 400px;
+    margin-left:20%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 700px;
+
+}
+
+.mansoonplace{
+    margin-top: 400px;
+    margin-left: 25px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("mansoonplace.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.aharmuseum{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("aharmusuem.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+.fatahsagarlake{
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("fatahsagar.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.mayo{
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("moyo.jpg") no-repeat center center/cover;
+    float: left;
+}
+.dargahheading{
+    margin-left:50%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.soniji{
+    margin-right: 30px;
+    padding-top: 30px;
+    height: 500px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("soniji.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+
+.saibaba{
+    margin-top: 400px;
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("saibaba.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.shahid{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("shahid.jpg") no-repeat center center/cover;
+    float: right;
+}
+.ajmermusium{
+    margin-top: 400px;
+    margin-left: 25px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("ajmermuseum.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.clocktower{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("clocktowert.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+.prithviraj{
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("prithviraj.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+
+.badabaag{
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("badabaag.jpg") no-repeat center center/cover;
+    float: left;
+}
+.badabaagheading{
+    margin-left:50%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.DESERTNATIONALPARK{
+    margin-right: 30px;
+    padding-top: 30px;
+    height: 500px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("desert.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+
+
+
+.MANDIRPALACE{
+    margin-top: 400px;
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("mandirplace.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.SALIMSINGHKIHAVELI{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("SALIMSINGHKIHAVELI.jpg") no-repeat center center/cover;
+    float: right;
+}
+.JAISALMERGOVERNMENTMUSEUM{
+    margin-top: 400px;
+    margin-left: 25px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("ajmermuseum.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.NATHMALJIKiHAVELI{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("Nathamal_Ji_Ki_Haweli.png") no-repeat center center/cover;
+    float: right;
+}
+
+.JAISALMERFORT{
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("JAISALMERFORT.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.JUNAGADHFORT{
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("JUNAGADHFORT.jpg") no-repeat center center/cover;
+    float: left;
+}
+.JUNAGADHFORTheading{
+    margin-left:50%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.RANIJISTEPWELL{
+    margin-right: 30px;
+    padding-top: 30px;
+    height: 500px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("RANI JI'S STEPWELL.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+/* .DESERTNATIONALPARKheading{
+    margin-left:50%;
+    font-size: 40px;
+    font-weight: bold;
+
+} */
+
+.DHABHAIKUND{
+    margin-top: 400px;
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("dabhai-kund.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.TARAGARHFORT{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("TARAGARHFORT.jpg") no-repeat center center/cover;
+    float: right;
+}
+.JAITSAGARLAKE{
+    margin-top: 400px;
+    margin-left: 25px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("JAIT SAGAR LAKE.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.HATHIPOLBUNDI{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("hathi-pole.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+.NAVAlSAGARLAKE{
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("NAVAL SAGAR LAKE.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+
+.SUKHMAHAL{
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("SUKHMAHAL.jpg") no-repeat center center/cover;
+    float: left;
+}
+.SUKHMAHALheading{
+    margin-left:50%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.RAMPURIYAHAVELI{
+    margin-right: 30px;
+    padding-top: 30px;
+    height: 500px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("RAMPURIYAHAVELI.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+/* .DESERTNATIONALPARKheading{
+    margin-left:50%;
+    font-size: 40px;
+    font-weight: bold;
+
+} */
+
+.DESHNOKEKARNIMATATEMPLE{
+    margin-top: 400px;
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("DESHNOKEKARNIMATATEMPLE.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.GAJNERPALACEANDLAKE{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("GAJNERPALACEANDLAKE.jpg") no-repeat center center/cover;
+    float: right;
+}
+.KATARIASARVILLAGE{
+    margin-top: 400px;
+    margin-left: 25px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("KATARIASARVILLAGE.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.KOLAYAT{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("KOLAYAT.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+.LALGARHPALACEANDMUSEUM{
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("LALGARHPALACEANDMUSEUM.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.nakki{
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("Nakki Lake.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+
+.dilwara{
+    margin-right: 30px;
+    padding-top: 30px;
+    height: 500px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("Dilwara Jain Temple.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+
+.SANCTUARY{
+    margin-top: 400px;
+    margin-left: 15px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("sanctuary.jpg") no-repeat center center/cover;
+    float: left;
+}
+
+.parkmount{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("parkmount.jpg") no-repeat center center/cover;
+    float: right;
+}
+.lalmandir{
+    margin-top: 400px;
+    margin-left: 25px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("lalmandir.png") no-repeat center center/cover;
+    float: left;
+}
+
+.gurushikar{
+    margin-top: 400px;
+    margin-right: 25px;
+    padding-top: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("Guru Shikhar.jpg") no-repeat center center/cover;
+    float: right;
+}
+
+.TREVORS{
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    background: url("Trevor01.jpg") no-repeat center center/cover;
+    float: left;
+}
+
